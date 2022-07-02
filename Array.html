@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Array</title>
+        <style>
+            h1
+            {
+                text-align: center;
+                color: greenyellow;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Array</h1>
+        <p>An array is defined as the collection of similar type of data items stored at contiguous memory locations. Arrays are the derived data type in C programming language which can store the primitive type of data such as int, char, double, float, etc. It also has the capability to store the collection of derived data types, such as pointers, structure, etc. The array is the simplest data structure where each data element can be randomly accessed by using its index number.</p>
+        <h2><u>Properties of Array</u></h2>
+        <u>
+            <li>Each element of an array is of same data type and carries the same size, i.e., int = 4 bytes.</li>
+            <li>Elements of the array are stored at contiguous memory locations where the first element is stored at the smallest memory location.</li>
+            <li>Elements of the array can be randomly accessed since we can calculate the address of each element of the array with the given base address and the size of the data element.</li>
+        </u>
+        <h3><u>Advantage of C Array</u></h3>
+        <li><b>Code Optimization: </b>Less code to the access the data.</li>
+        <li><b>Ease of traversing: </b>By using the for loop, we can retrieve the elements of an array easily.</li>
+        <li><b>Ease of sorting: </b>To sort the elements of the array, we need a few lines of code only.</li>
+        <li><b>Random Access: </b>We can access any element randomly using the array.</li>
+        <h4><b><u>Disadvantage of C Array</u></b></h4>
+        <p><b>Fixed Size: </b>Whatever size, we define at the time of declaration of the array, we can't exceed the limit. So, it doesn't grow the size dynamically like LinkedList which we will learn later.</p>
+        <h5><b><u>Declaration of C Array</u></b></h5>
+        <p>We can declare an array in the c language in the following way.</p>
+        <p><b>data_type array_name[array_size]; </b></p>
+        <h6><u>Initialization of C Array</u></h6>
+        <p>The simplest way to initialize an array is by using the index of each element. We can initialize each element of the array by using the index. Consider the following example.</p>
+        <p>marks[0]=80;//initialization of array  <br>
+            marks[1]=60; <br> 
+            marks[2]=70; <br> 
+            marks[3]=85; <br> 
+            marks[4]=75;  </p>
+            <h7><u>C Array: Declaration with Initialization</u></h7>
+            <p>We can initialize the c array at the time of declaration. Let's see the code.</p>
+            <p><b>int marks[5]={20,30,40,50,60}; </b></p>
+            <p>In such case, there is <b>no requirement to define the size.</b> So it may also be written as the following code.</p>
+            <p><b>int marks[]={20,30,40,50,60};  </b></p>
+    </body>
+</html>
